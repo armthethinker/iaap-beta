@@ -1,0 +1,7 @@
+{
+   "key1": {
+      "username": "goeshere",
+      "password": "goeshere"
+   }
+}
+// You'll need to rename this file ".ftppass" and put your own username and password in. Don't worry, Git will ignore your key file. Also get rid of this comment.

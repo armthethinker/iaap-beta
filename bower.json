@@ -1,0 +1,27 @@
+{
+  "name": "iamaprototype",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew R McHugh <andrew@daseindesign.co>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.2.0",
+    "bootstrap": "~3.3.2",
+    "fixie": "ryhan/fixie",
+    "holderjs": "~2.5.0",
+    "fontawesome": "~4.3.0",
+    "select2": "~3.5.2",
+    "uifunk": "armthethinker/uifunk",
+    "jquery.scrollTo": "~2.1.0",
+    "anchor-js": "~0.4.0",
+    "icheck": "~1.0.2"
+ }
+}
