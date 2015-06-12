@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                   'bower_components/anchor-js/anchor.css',
                   'bower_components/icheck/skins/flat/red.css'
                   ],
-            dest: 'dist/css/<%= pkg.gname %>-v<%= pkg.version %>.css'
+            dest: 'dist/css/<%= pkg.gname %>.css'
          },
          js: {
             src: ['js/bootstrap.min.js',
@@ -32,13 +32,13 @@ module.exports = function(grunt) {
                   'bower_components/jquery.scrollTo/jquery.scrollTo.min.js',
                   'bower_components/icheck/icheck.min.js',
                   'js/<%= pkg.gname %>.js'],
-            dest: 'dist/js/<%= pkg.gname %>-v<%= pkg.version %>.js'
+            dest: 'dist/js/<%= pkg.gname %>.js'
          }
       },
       uglify: {
          dist: {
             files: {
-               'dist/js/<%= pkg.gname %>-v<%= pkg.version %>.min.js': ['dist/js/<%= pkg.gname %>-v<%= pkg.version %>.js']
+               'dist/js/<%= pkg.gname %>.min.js': ['dist/js/<%= pkg.gname %>.js']
             }
          }
       },
@@ -105,7 +105,7 @@ module.exports = function(grunt) {
                banner: '<%= banner %>',
                stripBanners: false,
                sourceMap: true,
-               sourceMapFilename: 'dist/css/<%= pkg.gname %>-v<%= pkg.version %>.css.map'
+               sourceMapFilename: 'dist/css/<%= pkg.gname %>.css.map'
             },
             src: ['css/less/build.less'],
             dest: 'css/built-bootstrap+<%= pkg.gname %>.css'
