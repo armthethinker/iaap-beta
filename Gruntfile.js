@@ -82,6 +82,7 @@ module.exports = function(grunt) {
          },
          lessvar: {
             flatten: true,
+            expand: true,
             src: 'bower_components/bootstrap/less/variables.less',
             dest: 'css/less/'
          }
