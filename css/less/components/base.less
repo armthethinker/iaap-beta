@@ -73,7 +73,7 @@ section{
       background: @brand-warning;
       height: 45px;
       width: 45px;
-      box-shadow: 0 5px 5px @gray;
+      box-shadow: 0 5px 5px fade(@gray-dark, 30%);
       .fa-rocket{
          color: @brand-white;
          font-size: 27px;
@@ -85,7 +85,7 @@ section{
    &:hover{
       .rocket{
          bottom: 17px;
-         box-shadow: 0 7px 7px @gray;
+         box-shadow: 0 7px 7px fade(@gray-dark, 30%);
       }
    }
 }
