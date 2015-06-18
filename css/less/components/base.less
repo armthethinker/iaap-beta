@@ -7,10 +7,16 @@ section{
    min-height: 500px;
    margin-left: -@gutter;
    margin-right: -@gutter;
-   > .row{
+   > .section-overlay > .row{
       margin-left: 0;
       margin-right: 0;
    }
+}
+.section-overlay{
+   background: svg-gradient(to bottom right, fade(#D593FF, 50%), fade(#00A7FF, 50%));
+   position: absolute;
+   height: 100%;
+   width: 100%;
 }
 .sec-title{
    .img-cover();
