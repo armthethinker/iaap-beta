@@ -1,3 +1,18 @@
 // Put your base components here.
 // 
 // When there's enough code in a component, give it its own file and include it in build.less.
+@gutter: @grid-gutter-width/2;
+
+section{
+   min-height: 500px;
+   margin-left: -@gutter;
+   margin-right: -@gutter;
+   > .row{
+      margin-left: 0;
+      margin-right: 0;
+   }
+}
+.sec-title{
+   .img-cover();
+   .text-white();
+}
