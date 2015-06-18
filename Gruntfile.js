@@ -199,10 +199,14 @@ module.exports = function(grunt) {
          }
       },
       md2html: {
-         include: {
+         multiple_files: {
+            options: {},
             files: [{
-               src: ['README.md'],
-               dest: 'includes/ui/README.html'
+               expand: true,
+               cwd: '',
+               src: ['*.md'],
+               dest: 'includes/md/',
+               ext: '.html'
             }]
          }
       }
