@@ -10,8 +10,10 @@
                   Manifesto
                   <div class="underline"></div>
                </h3>
-               <div class="video"><i class="fa fa-youtube-play"></i></div>
-               <?php include('includes/md/MANIFESTO.html') ?>
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8rwsuXHA7RA?rel=0" allowfullscreen></iframe>
+               </div>
+                  <?php include('includes/md/MANIFESTO.html') ?>
             </div>
          </div>
       </div>
