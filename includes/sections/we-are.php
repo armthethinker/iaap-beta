@@ -1,4 +1,4 @@
-<section class="sec-we-are" style="background-image: url('/img/-blur.jpg')">
+<section class="sec-we-are" style="background-image: url('/img/paper-bg.jpg')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">
