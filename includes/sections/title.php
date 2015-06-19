@@ -3,7 +3,8 @@
       <div class="row">
          <div class="col-xs-12">
             <h2>Be a</h2>
-            <h1>PROTOTYPE</h1>
+            <h1>PROTOTYPE.</h1>
+            <h3>Being Change</h3>
          </div>
       </div>
    </div>
