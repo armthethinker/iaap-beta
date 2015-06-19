@@ -74,6 +74,21 @@ section{
    .img-cover();
 }
 .sec-story{
+   background: svg-gradient(to bottom right, #777, #222);
+   .text-white();
+   .section-overlay{
+      position: static;
+   }
+   h1{
+      
+      margin-bottom: 0;
+   }
+   h2,
+   h2 small,
+   h2 .small{
+      margin-top: 0;
+      color: darken(@brand-white, 30%);
+   }
 }
 .sec-action{
    .img-cover();
@@ -127,4 +142,7 @@ section{
          box-shadow: 0 7px 7px fade(#000, 30%);
       }
    }
+}
+.profile-block{
+   margin-bottom: 50px;
 }
