@@ -8,8 +8,9 @@
                </div>
                <h3>
                   Manifesto
-                  <div class="underline" domFlag></div>
+                  <div class="underline"></div>
                </h3>
+               <div class="video"><i class="fa fa-youtube-play"></i></div>
                <?php include('includes/md/MANIFESTO.html') ?>
             </div>
          </div>
