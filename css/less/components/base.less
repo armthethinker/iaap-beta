@@ -8,7 +8,15 @@ p{
 .p-t-sm{
    padding-top: 20px;
 }
-
+a{
+   color: inherit;
+   border-bottom: 3px solid @brand-primary;
+   &:hover{
+      text-decoration: none;
+      border-bottom: none;
+      background: fade(@brand-primary, 10%);
+   }
+}
 
 section{
    min-height: 500px;
