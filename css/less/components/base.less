@@ -124,11 +124,12 @@ section{
       margin-top: 39px;
    }
    .faqs{
-      background: svg-gradient(to bottom, @brand-warning, @brand-danger) !important;
-      margin-left: -15px;
-      margin-right: -15px;
-      padding-left: 15px;
-      padding-right: 15px;
+      background: svg-gradient(to bottom, fade(@brand-danger, 0%), fade(@brand-danger, 50%) 70%, @brand-danger) !important;
+      margin-left: -@grid-gutter-width;
+      margin-right: -@grid-gutter-width;
+      padding-left: @grid-gutter-width;
+      padding-right: @grid-gutter-width;
+      padding-bottom: 100px;
    }
    .faq{
       margin-bottom: 30px;
