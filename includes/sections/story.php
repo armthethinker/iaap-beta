@@ -1,4 +1,4 @@
-<section class="sec-story">
+<section class="sec-story" style="background-image: url('/img/pattern3.gif')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">
@@ -6,10 +6,9 @@
             <h2><small>Three Living Prototypes</small></h2>
          </div>
          <div class="col-lg-6">
-            <p class="fixie"></p>
-            <p class="fixie"></p>
-            <p class="fixie"></p>
-            <p class="fixie"></p>
+            <p>We'ver been there. Hell, we still are there. All three of us are trying to figure out our lives, but while we do it, we want to help others in their journyes too. We don't live fance lives, at least not from an outsider's perspective. But, we do have some damn fine stories.</p>
+            <p>Sarah and Andrew ran into each other by chance. Their conversation fueled Andrew's overnight in an airport, which generated the first semblance of I Am A Prototype.</p>
+            <p>Many conversations and months later, a founder lost and a founder gained, the three of us launched this project. We believe in our work's ability to inspire and bring people together.</p>
          </div>
          <div class="col-lg-6">
             <div class="media profile-block">
