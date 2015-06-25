@@ -5,8 +5,7 @@
             <div class="row">
                <div class="col-md-8">
                   <h1>Take Action</h1>
-                  <p class="fixie"></p>
-                  <p>this goes nowhere <a href="#nowhere">nowherelink</a>.</p>
+                  <p>We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 15% of our profit goes into our <a href="#">prototype fund</a>.</p>
                </div>
             </div>
             <div class="row">
