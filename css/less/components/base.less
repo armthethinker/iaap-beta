@@ -81,7 +81,7 @@ section{
 .sec-manifesto{
    .img-cover();
    .section-overlay{
-      position: static;
+      position: static; //override
    }
    .embed-responsive{
       margin-left: -30px;
@@ -97,7 +97,7 @@ section{
    
    .text-white();
    .section-overlay{
-      position: static;
+      position: static; //override
    }
    h1{
       
@@ -115,14 +115,14 @@ section{
    .img-cover();
 
    .section-overlay{
-      position: static;
+      position: static; //override
    }
 }
 .sec-faqs{
    background: @brand-danger;
    min-height: 0;
    .section-overlay{
-      position: static;
+      position: static; //override
    }
    h1{
       margin-top: 31px;
@@ -149,6 +149,10 @@ section{
 .sec-footer{
    background: @brand-danger;
    .text-white();
+   min-height: initial; //override
+   .section-overlay{
+      position: static; //override
+   }
 }
 .manifesto-container{
    margin-top: 20px;
