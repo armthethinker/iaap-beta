@@ -10,7 +10,8 @@ p{
 }
 a{
    color: inherit;
-   border-bottom: 3px solid @brand-primary;
+   border-bottom: 2px solid @brand-primary;
+   padding-bottom: 3px;
    &:hover{
       text-decoration: none;
       border-bottom: none;
@@ -185,6 +186,9 @@ section{
 }
 .profile-block{
    margin-bottom: 50px;
+   > .media-left > a{
+      border: none;
+   }
 }
 .media-action{
    h4{
