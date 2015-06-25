@@ -4,8 +4,7 @@
          <div class="col-xs-12">
             <button class="pull-right btn btn-default btn-faqs" data-toggle="collapse" data-target=".faqs">Show</button>
             <h1>FAQs</h1>
-            <!-- <div class="faqs collapse"> -->
-            <div class="faqs">
+            <div class="faqs collapse">
                <div class="row">
                   <div class="col-md-6">
                      <div class="faq">
