@@ -10,12 +10,19 @@ p{
 }
 a{
    color: inherit;
-   border-bottom: 2px solid @brand-primary;
-   padding-bottom: 3px;
    &:hover{
       text-decoration: none;
       border-bottom: none;
-      background: fade(#D7DFEB, 90%);
+   }
+}
+p,
+.tweet-author{
+   a{
+      border-bottom: 2px solid @brand-primary;
+      padding-bottom: 3px;
+      &:hover{
+         background: fade(#D7DFEB, 90%);
+      }
    }
 }
 ::selection{
