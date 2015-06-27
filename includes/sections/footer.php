@@ -1,4 +1,4 @@
-<section class="sec-footer">
+<section class="section-footer">
    <div class="section-overlay">
       <div class="row">
          <div class="col-md-8">

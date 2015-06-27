@@ -1,4 +1,4 @@
-<section class="sec-title" style="background-image: url('/img/girl-back.jpg')">
+<section class="section-hero" style="background-image: url('/img/girl-back.jpg')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">
@@ -8,4 +8,4 @@
          </div>
       </div>
    </div>
-</section>
+</section

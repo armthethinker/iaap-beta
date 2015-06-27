@@ -1,4 +1,4 @@
-<section class="sec-story" style="background-image: url('/img/pattern3.gif')">
+<section class="section-story" style="background-image: url('/img/pattern3.gif')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">

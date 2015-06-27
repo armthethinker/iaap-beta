@@ -2,8 +2,8 @@ var navbarheight = 70;
 
 $(document).ready(function(){
    function navbarAffixLoc(){
-      var $secTitle = $('.sec-title > .section-overlay');
-      var navbarAffixLoc = $secTitle.height() - navbarheight;
+      var $secHero = $('.section-hero > .section-overlay');
+      var navbarAffixLoc = $secHero.height() - navbarheight;
       console.log(navbarAffixLoc);
       return navbarAffixLoc;
    }

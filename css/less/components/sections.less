@@ -20,7 +20,7 @@ section{
    height: 100%;
    width: 100%;
 }
-.sec-title{
+.section-hero{
    min-height: 500px; //LINTER: check this number
    height: 95%;
    z-index: @zindex-hero;
@@ -28,7 +28,7 @@ section{
    .text-white();
    padding-top: 0; //override
    .section-overlay{
-      background: @gradient-title; //TODO: change 'title' to 'hero'
+      background: @gradient-hero;
       > .row{
          padding-top: 75px; //for nav
       }  
@@ -57,7 +57,7 @@ section{
       }
    }
 }
-.sec-manifesto{
+.section-manifesto{
    .img-cover();
    .section-overlay{
       position: static; //override
@@ -69,10 +69,10 @@ section{
       background: black;
    }
 }
-.sec-we-are{
+.section-we-are{
    .img-cover();
 }
-.sec-story{
+.section-story{
    
    .text-white();
    .section-overlay{
@@ -89,7 +89,7 @@ section{
       color: darken(@brand-white, 30%);
    }
 }
-.sec-action{
+.section-action{
    background: #EAEBF2;
    .img-cover();
 
@@ -97,7 +97,7 @@ section{
       position: static; //override
    }
 }
-.sec-faqs{
+.section-faqs{
    background: @brand-danger;
    min-height: 0; //override
    .section-overlay{
@@ -125,7 +125,7 @@ section{
       margin-bottom: 30px;
    }
 }
-.sec-footer{
+.section-footer{
    background: darken(@brand-danger, 10%);
    .text-white();
    min-height: initial; //override

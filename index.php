@@ -1,6 +1,6 @@
 <?php include('includes/prepage.php') ?>
 
-<?php include('includes/sections/title.php') ?>
+<?php include('includes/sections/hero.php') ?>
 <?php include('includes/sections/manifesto.php') ?>
 <?php include('includes/sections/we-are.php') ?>
 <?php include('includes/sections/story.php') ?>

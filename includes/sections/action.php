@@ -1,4 +1,4 @@
-<section class="sec-action" id="sec-action">
+<section class="section-action" id="section-action">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">
