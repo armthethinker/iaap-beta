@@ -19,24 +19,7 @@
                         <p>Tweet your proto-story in 145 characters + #IAmAPrototype.</p>
                         <button class="btn btn-default">Tweet Story</button>
                         <hr>
-                        <div class="media tweet">
-                           <div class="media-left">
-                              <i class="fa fa-twitter text-primary"></i>
-                           </div>
-                           <div class="media-body">
-                              <span class="tweet-body">Dot in the sky. Dead pixel. #iamaprototype</span><br>
-                              <span class="tweet-author">- <a href="http://twitter.com" target="_blank">@giantmonkey2</a></span>
-                           </div>
-                        </div>
-                        <div class="media tweet">
-                           <div class="media-left">
-                              <i class="fa fa-twitter text-primary"></i>
-                           </div>
-                           <div class="media-body">
-                              <span class="tweet-body">I win lottery. Sun goes nova. #iamaprototype</span><br>
-                              <span class="tweet-author">- <a href="http://twitter.com" target="_blank">@StevenMeretzky</a></span>
-                           </div>
-                        </div>
+                        <?php include('includes/components/twitter-embed.php') ?>
                      </div>
                   </div>
                </div>
