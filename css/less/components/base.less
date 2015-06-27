@@ -39,8 +39,8 @@ section{
    margin-left: -@gutter;
    margin-right: -@gutter;
    > .section-overlay > .row{
-      margin-left: @gutter;
-      margin-right: @gutter;
+      margin-left: @gutter; //override
+      margin-right: @gutter; //override
    }
 }
 .section-overlay{
@@ -51,6 +51,7 @@ section{
 .sec-title{
    .img-cover();
    .text-white();
+   padding-top: 0; //override
    .section-overlay{
       background: svg-gradient(to bottom right, fade(#D593FF, 50%), fade(#00A7FF, 50%));
    }
@@ -120,7 +121,7 @@ section{
 }
 .sec-faqs{
    background: @brand-danger;
-   min-height: 0;
+   min-height: 0; //override
    .section-overlay{
       position: static; //override
    }
