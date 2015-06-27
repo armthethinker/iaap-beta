@@ -41,7 +41,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Abby Stokes</h4>
-                  <p class="fixie">I did this. I did that. Now I do the do.</p>
+                  <p>School: religious studies. Now: cooking veggie buddies. Organic farm: where I'm going, saving worlds with compost and sowing. #iamaprototype</p>
                </div>
             </div>
          </div>
