@@ -29,9 +29,14 @@ p,
    color: @brand-primary;
    background: fade(#D7DFEB, 90%);
 }
-
+html,
+body,
+body > .container,
+body > .container-fluid{
+   height: 100%;
+}
 section{
-   min-height: 500px;
+   min-height: 95%;
    position: relative;
    padding-top: 50px;
    padding-bottom: 50px;
