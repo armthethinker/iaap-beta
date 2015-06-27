@@ -19,7 +19,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Andrew R McHugh</h4>
-                  <p>I did this. I did that. Now I do the do.</p>
+                  <p class="small">Started some things. Now I'm learning from some of the best. Virtual reality is next. #iamaprototype</p>
                </div>
             </div>
             <div class="media profile-block">
@@ -30,7 +30,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Sarah Kurland</h4>
-                  <p>I did this. I did that. Now I do the do.</p>
+                  <p class="small">I did this. I did that. Now I do the do.</p>
                </div>
             </div>
             <div class="media profile-block">
@@ -41,7 +41,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Abby Stokes</h4>
-                  <p>School: religious studies. Now: cooking veggie buddies. Organic farm: where I'm going, saving worlds with compost and sowing. #iamaprototype</p>
+                  <p class="small">School: religious studies. Now: cooking veggie buddies. Organic farm: where I'm going, saving worlds with compost and sowing. #iamaprototype</p>
                </div>
             </div>
          </div>
