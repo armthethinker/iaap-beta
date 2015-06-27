@@ -10,4 +10,6 @@
 
 <?php include('includes/components/rocket.php') ?>
 
+<?php include('includes/sections/m-prototype-fund.php') ?>
+
 <?php include('includes/postpage.php') ?>
