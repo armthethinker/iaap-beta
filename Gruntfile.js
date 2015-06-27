@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                   'bower_components/anchor-js/anchor.js',
                   'bower_components/jquery.scrollTo/jquery.scrollTo.min.js',
                   'bower_components/icheck/icheck.min.js',
-                  'bower_components/fittext/fittext.js',
+                  'bower_components/FitText.js/jquery.fittext.js',
                   'js/<%= pkg.gname %>.js'],
             dest: 'dist/js/<%= pkg.gname %>.js'
          }

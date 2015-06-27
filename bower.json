@@ -23,6 +23,6 @@
     "jquery.scrollTo": "~2.1.0",
     "anchor-js": "~0.4.0",
     "icheck": "~1.0.2",
-    "fittext": "*"
+    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0"
   }
 }
