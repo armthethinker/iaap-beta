@@ -1,4 +1,4 @@
-<section class="sec-action" id="sec-action" style="background-image: url('/img/action.jpg')">
+<section class="sec-action" id="sec-action">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">
@@ -53,12 +53,12 @@
                         <div class="row">
                            <div class="col-md-6">
                               <a href="#">
-                                 <div class="img-showcase" style="background-image: url('/Lightroom/IAAP-4.jpg')"></div>
+                                 <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-4.jpg')"></div>
                               </a>
                            </div>
                            <div class="col-md-6">
                               <a href="#">
-                                 <div class="img-showcase" style="background-image: url('/Lightroom/IAAP-11.jpg')"></div>
+                                 <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-11.jpg')"></div>
                               </a>
                            </div>
                         </div>

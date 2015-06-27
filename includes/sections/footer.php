@@ -1,8 +1,8 @@
-<section class="sec-footer" style="background-image: url('/img/footer.jpg')">
+<section class="sec-footer">
    <div class="section-overlay">
       <div class="row">
          <div class="col-md-8">
-            <h5\6\5>Sign up for snippets of awesome, not spam</h5\6\5>
+            <h5>Sign up for snippets of awesome, not spam</h5>
             <div class="form-group">
                <div class="input-group">
                   <input type="email" class="form-control" placeholder="Email address">
