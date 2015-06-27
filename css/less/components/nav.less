@@ -1,9 +1,31 @@
 // Nav
 
 nav.navbar{
-   position: fixed;
+   position: absolute;
+   z-index: @zindex-navbar;
+   color: @navbar-default-color;
+   background: transparent;
+   padding: @navbar-padding-vertical @navbar-padding-horizontal;
+   height: 65px;
    left: 0;
    right: 0;
-   z-index: 20;
+   .img-navbar-brand{
+      height: 45px;
+   }
+   &.navbar-affix{
+      &.affix-top{
 
+      }
+      &.affix{
+         z-index: @zindex-navbar-fixed;
+         position: fixed;
+         left: 0;
+         right: 0;
+         background: @gradient-title-90;
+         //height: @navbar-height;
+      }
+      &.affix-bottom{
+
+      }
+   }
 }

@@ -21,13 +21,17 @@ section{
    width: 100%;
 }
 .sec-title{
-   min-height: 400px;
+   min-height: 500px; //LINTER: check this number
    height: 95%;
+   z-index: @zindex-hero;
    .img-cover();
    .text-white();
    padding-top: 0; //override
    .section-overlay{
-      background: svg-gradient(to bottom right, fade(#D593FF, 50%), fade(#00A7FF, 50%));
+      background: @gradient-title; //TODO: change 'title' to 'hero'
+      > .row{
+         padding-top: 75px; //for nav
+      }  
    }
    h1{
       font-size: 140px;
