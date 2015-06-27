@@ -19,7 +19,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Andrew R McHugh</h4>
-                  <p class="fixie">I did this. I did that. Now I do the do.</p>
+                  <p>I did this. I did that. Now I do the do.</p>
                </div>
             </div>
             <div class="media profile-block">
@@ -30,7 +30,7 @@
                </div>
                <div class="media-body">
                   <h4 class="media-title">Sarah Kurland</h4>
-                  <p class="fixie">I did this. I did that. Now I do the do.</p>
+                  <p>I did this. I did that. Now I do the do.</p>
                </div>
             </div>
             <div class="media profile-block">
