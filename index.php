@@ -1,7 +1,5 @@
 <?php include('includes/prepage.php') ?>
 
-<?php include('includes/components/nav.php') ?>
-
 <?php include('includes/sections/title.php') ?>
 <?php include('includes/sections/manifesto.php') ?>
 <?php include('includes/sections/we-are.php') ?>

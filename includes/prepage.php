@@ -19,4 +19,5 @@
    <![endif]-->
 </head>
 <body>
+   <?php include('includes/components/nav.php') ?>
    <div class="container-fluid">
