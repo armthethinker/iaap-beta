@@ -1,6 +1,8 @@
 var navbarheight = 70;
 
 $(document).ready(function(){
+
+   // Navbar affix
    function navbarAffixLoc(){
       var $secHero = $('.section-hero > .section-overlay');
       var navbarAffixLoc = $secHero.height() - navbarheight;
@@ -15,6 +17,7 @@ $(document).ready(function(){
       }
    });
 
+   // Hero header sizing
    var hero = $('.section-hero');
    var fitTextRatio_1_2 = 1.4;
    var fitTextRatio_1_3 = 140/38;
