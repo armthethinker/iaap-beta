@@ -1,5 +1,5 @@
 <div class="rocket-container">
-   <a href="#section-action">
+   <a data-scroll href="#section-action">
       <div class="rocket">
          <i class="fa fa-rocket"></i>
       </div>

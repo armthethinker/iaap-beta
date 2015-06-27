@@ -32,6 +32,11 @@ $(document).ready(function(){
    hero.find('h2').fitText(1, {minFontSize: h2Min + 'px', maxFontSize: h2Max + 'px'});
    hero.find('h3').fitText(1.4, {minFontSize: h3Min + 'px', maxFontSize: h3Max + 'px'});
 
+   // Smooth scrolling
+   smoothScroll.init({
+      easing: 'easeInOutCubic'
+   });
+
    // Modal testing
    //$('#m-prototype-fund').modal('show');
 });

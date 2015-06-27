@@ -1,4 +1,4 @@
-<section class="section-manifesto" style="background-image: url('/img/artist-blur.jpg')">
+<section class="section-manifesto" id="section-manifesto" style="background-image: url('/img/artist-blur.jpg')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1" >

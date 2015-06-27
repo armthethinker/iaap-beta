@@ -7,13 +7,13 @@
                   <i class="fa fa-bars"></i>
                </button>
                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#section-hero">Hero</a></li>
-                  <li><a href="#section-manifesto">Manifesto</a></li>
-                  <li><a href="#section-we-are">We Are</a></li>
-                  <li><a href="#section-story">Our Story</a></li>
-                  <li><a href="#section-action">Take Action</a></li>
-                  <li><a href="#section-faqs">FAQs</a></li>
-                  <li><a href="#section-footer">Get Some Newsletter</a></li>
+                  <li><a data-scroll href="#section-hero">Hero</a></li>
+                  <li><a data-scroll href="#section-manifesto">Manifesto</a></li>
+                  <li><a data-scroll href="#section-we-are">We Are</a></li>
+                  <li><a data-scroll href="#section-story">Our Story</a></li>
+                  <li><a data-scroll href="#section-action">Take Action</a></li>
+                  <li><a data-scroll href="#section-faqs">FAQs</a></li>
+                  <li><a data-scroll href="#section-footer">Get Some Newsletter</a></li>
                </ul>
             </div>
          </div>

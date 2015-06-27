@@ -23,6 +23,8 @@
     "jquery.scrollTo": "~2.1.0",
     "anchor-js": "~0.4.0",
     "icheck": "~1.0.2",
-    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0"
+    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0",
+    "jquery.localScroll": "https://github.com/flesler/jquery.localScroll.git#~1.4.0",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~5.3.7"
   }
 }
