@@ -248,8 +248,8 @@ module.exports = function(grunt) {
 
    // Slim task runners
    grunt.registerTask('default', ['less:dev', 'concat:js', 'clean:preBuild', 'beaker','watch']);
-   grunt.registerTask('css', ['less:dev', 'concat:css', 'replace', 'autoprefixer', 'clean:preBuild', 'beaker']);
-   grunt.registerTask('js', ['concat:js', 'beaker']);
+   grunt.registerTask('css', ['less:dev', 'concat:css', 'replace', 'autoprefixer', 'clean:preBuild', 'beaker:css']);
+   grunt.registerTask('js', ['concat:js', 'beaker:js']);
 
    // Production ready task runners
    grunt.registerTask('full', ['clean:dist', 'copy-stack', 'less', 'concat', 'replace', 'autoprefixer', 'cssmin', 'uglify', 'md2html', 'clean:preBuild', 'beaker']);
