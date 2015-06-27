@@ -1,13 +1,13 @@
 {
   "name": "iamaprototype",
   "gname": "iamaprototype",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PLACE.git"
+    "url": "https://github.com/armthethinker/iaap-beta.git"
   },
   "url": "PLACE",
-  "description": "iamaprototype is a personal repository to seed app development.",
+  "description": "The second version of the I Am A Prototype site.",
   "author": "Andrew R McHugh, Dasein Design",
   "devDependencies": {
     "grunt": "^0.4.5",
