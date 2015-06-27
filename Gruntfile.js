@@ -209,6 +209,22 @@ module.exports = function(grunt) {
                ext: '.html'
             }]
          }
+      },
+      beaker: {
+         css: {
+            src: 'dist/css/',
+            options: {
+               collectData: true,
+               dataStore: 'beaker.json'
+            }
+         },
+         js: {
+            src: 'dist/js/',
+            options: {
+               collectData: true,
+               dataStore: 'beaker.json'
+            }
+         }
       }
    });
 
@@ -223,6 +239,7 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-autoprefixer');
    grunt.loadNpmTasks('grunt-text-replace');
    grunt.loadNpmTasks('grunt-md2html');
+   grunt.loadNpmTasks('grunt-beaker');
 
    // Utility runners
    grunt.registerTask('copy-stack', ['copy:rand', 'copy:fonts', 'copy:select2', 'copy:icheck']);
@@ -230,12 +247,12 @@ module.exports = function(grunt) {
    grunt.registerTask('setup', ['copy:lessvar', 'full']);
 
    // Slim task runners
-   grunt.registerTask('default', ['less:dev', 'concat:js', 'clean:preBuild', 'watch']);
-   grunt.registerTask('css', ['less:dev', 'concat:css', 'replace', 'autoprefixer', 'clean:preBuild']);
-   grunt.registerTask('js', ['concat:js']);
+   grunt.registerTask('default', ['less:dev', 'concat:js', 'clean:preBuild', 'beaker','watch']);
+   grunt.registerTask('css', ['less:dev', 'concat:css', 'replace', 'autoprefixer', 'clean:preBuild', 'beaker']);
+   grunt.registerTask('js', ['concat:js', 'beaker']);
 
    // Production ready task runners
-   grunt.registerTask('full', ['clean:dist', 'copy-stack', 'less', 'concat', 'replace', 'autoprefixer', 'cssmin', 'uglify', 'md2html', 'clean:preBuild']);
+   grunt.registerTask('full', ['clean:dist', 'copy-stack', 'less', 'concat', 'replace', 'autoprefixer', 'cssmin', 'uglify', 'md2html', 'clean:preBuild', 'beaker']);
    grunt.registerTask('deploy', ['sftp-deploy:deploy']);
    grunt.registerTask('deployjs', ['sftp-deploy:js']);
 
