@@ -112,6 +112,9 @@ section{
    background: @brand-danger;
    min-height: 0; //override
    padding-bottom: 0;
+   .section-overlay{
+      position: static; // Necessary override
+   }
    h1{
       margin-top: 0;
       margin-bottom: 50px; // matches section padding, used because of gradient
