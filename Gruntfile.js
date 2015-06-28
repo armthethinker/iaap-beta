@@ -15,11 +15,11 @@ module.exports = function(grunt) {
          css: {
             src: ['css/built-bootstrap+<%= pkg.gname %>.css',
                   'bower_components/fontawesome/css/font-awesome.min.css',
-                  'bower_components/animate.css/animate.min.css',
-                  'bower_components/select2/select2.css',
-                  'bower_components/select2/select2-bootstrap.css',
-                  'bower_components/anchor-js/anchor.css',
-                  'bower_components/icheck/skins/flat/red.css'
+                  //'bower_components/animate.css/animate.min.css',
+                  //'bower_components/select2/select2.css',
+                  //'bower_components/select2/select2-bootstrap.css',
+                  //'bower_components/anchor-js/anchor.css',
+                  //'bower_components/icheck/skins/flat/red.css'
                   ],
             dest: 'dist/css/<%= pkg.gname %>.css'
          },
