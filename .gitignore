@@ -13,8 +13,12 @@ Thumbs.db
 /bower_components/
 /node_modules/
 
-# TEMP #
+# Files and folders from build #
+######################
+/fonts/
 /dist/
+
+# TEMP #
 /img/
 
 # Privacy #
