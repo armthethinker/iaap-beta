@@ -3,6 +3,7 @@
 .rocket-container{
    .rocket{
       .text-center();
+      .transition-ease();
       position: fixed;
       bottom: 15px;
       right: 15px;
@@ -14,6 +15,7 @@
       box-shadow: 0 5px 5px fade(#000, 30%);
       z-index: @zindex-rocket;
       .fa-rocket{
+         .transition-ease();
          color: @brand-white;
          font-size: 27px;
          position: relative;
@@ -25,6 +27,12 @@
       .rocket{
          bottom: 17px;
          box-shadow: 0 7px 7px fade(#000, 30%);
+         height: 47px;
+         width: 47px;
+         right: 14px;
+         .fa-rocket{
+            font-size: 29px;
+         }
       }
    }
 }
