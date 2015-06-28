@@ -55,32 +55,38 @@ module.exports = function(grunt) {
          }
       },
       copy: {
+         fontawesome: {
+            flatten: true,
+            expand: true,
+            src: 'bower_components/fontawesome/fonts/*',
+            dest: 'fonts/'
+         },
          fonts: {
             src: 'fonts/*',
             dest: 'dist/'
          },
-         select2: {
-            flatten: true,
-            expand: true,
-            src: 'img/select2/*',
-            dest: 'dist/css/'
-         },
-         icheck: {
-            options: {
-               noProcess: ['*.{png,gif,jpg,ico}'],
-            },
-            flatten: true,
-            expand: true,
-            src: ['bower_components/icheck/skins/flat/red.png',
-                  'bower_components/icheck/skins/flat/red@2x.png'],
-            dest: 'dist/css/'
-         },
-         rand: {
-            flatten: true,
-            expand: true,
-            src: 'bower_components/UIFunk/rand.php',
-            dest: 'includes/'
-         },
+         // select2: {
+         //    flatten: true,
+         //    expand: true,
+         //    src: 'img/select2/*',
+         //    dest: 'dist/css/'
+         // },
+         // icheck: {
+         //    options: {
+         //       noProcess: ['*.{png,gif,jpg,ico}'],
+         //    },
+         //    flatten: true,
+         //    expand: true,
+         //    src: ['bower_components/icheck/skins/flat/red.png',
+         //          'bower_components/icheck/skins/flat/red@2x.png'],
+         //    dest: 'dist/css/'
+         // },
+         // rand: {
+         //    flatten: true,
+         //    expand: true,
+         //    src: 'bower_components/UIFunk/rand.php',
+         //    dest: 'includes/'
+         // },
          lessvar: {
             flatten: true,
             expand: true,
@@ -243,17 +249,17 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-beaker');
 
    // Utility runners
-   grunt.registerTask('copy-stack', ['copy:rand', 'copy:fonts', 'copy:select2', 'copy:icheck']);
+   grunt.registerTask('copy-stack', ['copy:fontawesome', 'copy:fonts']);
    grunt.registerTask('cleanup', ['clean:cleanup']);
    grunt.registerTask('setup', ['copy:lessvar', 'full']);
 
    // Slim task runners
-   grunt.registerTask('default', ['less:dev', 'concat:js', 'clean:preBuild', 'beaker','watch']);
-   grunt.registerTask('css', ['less:dev', 'concat:css', 'replace', 'autoprefixer', 'clean:preBuild', 'beaker:css']);
-   grunt.registerTask('js', ['concat:js', 'beaker:js']);
+   grunt.registerTask('default', ['css', 'js','watch']);
+   grunt.registerTask('css', ['less:dev', 'concat:css', 'autoprefixer', 'cssmin', 'clean:preBuild', 'beaker:css']);
+   grunt.registerTask('js', ['concat:js', 'uglify', 'beaker:js']);
 
    // Production ready task runners
-   grunt.registerTask('full', ['clean:dist', 'copy-stack', 'less', 'concat', 'replace', 'autoprefixer', 'cssmin', 'uglify', 'md2html', 'clean:preBuild', 'beaker']);
+   grunt.registerTask('full', ['clean:dist', 'copy-stack', 'css', 'js', 'md2html']);
    grunt.registerTask('deploy', ['sftp-deploy:deploy']);
    grunt.registerTask('deployjs', ['sftp-deploy:js']);
 
