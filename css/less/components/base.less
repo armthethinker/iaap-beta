@@ -88,3 +88,49 @@ a{
       content: '';
    }
 }
+.btn-outline{
+   background-color: fade(@brand-white, 0%);
+   &.btn-default{
+      color: @brand-white;
+      border: 2px solid @brand-white;
+      &:hover{
+         background-color: fade(@brand-white, 25%);
+      }
+      &:active,
+      &:focus{
+         background-color: fade(@brand-white, 35%);
+         color: @brand-white;
+      }
+   }
+}
+// Specific overrides for dropdown
+.btn-default:active, .btn-default.active,
+.open > .dropdown-toggle.btn-default,
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus{
+   color: @brand-white;
+   background-color: fade(@brand-white, 50%);
+   border-color: @brand-white;
+}
+
+.btn-navbar-menu{
+   padding: 9px;
+   transition: all 0.3s ease;
+   .icon-bar{
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      border: solid @brand-white 1px;
+      + .icon-bar{
+         margin-top: 4px;
+      }
+   }
+}

@@ -3,8 +3,11 @@
       <div class="row">
          <div class="col-xs-2">
             <div class="dropdown">
-               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <i class="fa fa-bars"></i>
+               <button class="btn btn-default btn-outline btn-navbar-menu dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                </button>
                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                   <li><a data-scroll href="#section-hero">Hero</a></li>
