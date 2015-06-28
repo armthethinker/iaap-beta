@@ -16,17 +16,12 @@
     "animate.css": "~3.2.0",
     "bootstrap": "~3.3.2",
     "fontawesome": "~4.3.0",
-    "select2": "~3.5.2",
-    "uifunk": "armthethinker/uifunk",
-    "jquery.scrollTo": "~2.1.0",
-    "anchor-js": "~0.4.0",
-    "icheck": "~1.0.2",
     "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0",
-    "jquery.localScroll": "https://github.com/flesler/jquery.localScroll.git#~1.4.0",
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~5.3.7"
   },
   "devDependencies": {
     "fixie": "ryhan/fixie",
-    "holderjs": "~2.5.0"
+    "holderjs": "~2.5.0",
+    "uifunk": "armthethinker/uifunk"
   }
 }
