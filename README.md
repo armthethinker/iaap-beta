@@ -1,6 +1,8 @@
 # iaap-beta
 The second version of the IAMAPROTOTYPE site.
 
+**Warning**: the next sections are out of date.
+
 ## Getting Started
 The frontend is built with a series of tools.
 
