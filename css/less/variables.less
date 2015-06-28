@@ -21,8 +21,11 @@
 @brand-danger:          #FF7665;
 @brand-white:           #fefefe;
 
-@gradient-hero: svg-gradient(to bottom right, fade(#D593FF, 50%), fade(#00A7FF, 50%));
-@gradient-hero-90: svg-gradient(to bottom right, fade(#D593FF, 90%), fade(#00A7FF, 90%));
+@gradient-purple: #D593FF;
+@gradient-blue: #00A7FF;
+@gradient-hero: svg-gradient(to bottom right, fade(@gradient-purple, 50%), fade(@gradient-blue, 50%));
+
+@gradient-navbar: svg-gradient(to bottom right, fade(mix(@gradient-purple, @gray-light, 70%), 90%), fade(mix(@gradient-blue, @gray-light, 70%), 90%));
 
 
 //== Scaffolding
