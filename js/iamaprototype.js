@@ -5,7 +5,7 @@ $(document).ready(function(){
    // Navbar affix
    function navbarAffixLoc(){
       var $secHero = $('.section-hero > .section-overlay');
-      var navbarAffixLoc = $secHero.height() - navbarheight;
+      var navbarAffixLoc = $secHero.height() - navbarheight*1.1;
       console.log(navbarAffixLoc);
       return navbarAffixLoc;
    }
