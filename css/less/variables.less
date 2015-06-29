@@ -14,15 +14,21 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         #00A7FF; // #337ab7
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         darken(orange, 5%); //#f0ad4e;
 @brand-danger:          #FF7665;
 @brand-white:           #fefefe;
 
-@gradient-purple: #D593FF;
-@gradient-blue: #00A7FF;
+@prototype-blue: @brand-primary;
+@prototype-purple: #d593ff;
+@prototype-navy: #294a5c;
+@prototype-white: #ddd8b8;
+@prototype-red: #f04374;
+
+@gradient-purple: @prototype-purple;
+@gradient-blue: @brand-primary;
 @gradient-hero: svg-gradient(to bottom right, fade(@gradient-purple, 50%), fade(@gradient-blue, 50%));
 
 @gradient-navbar: svg-gradient(to bottom right, fade(mix(@gradient-purple, @gray-light, 70%), 90%), fade(mix(@gradient-blue, @gray-light, 70%), 90%));
