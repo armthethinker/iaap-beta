@@ -1,4 +1,4 @@
-<section class="section-we-are" id="section-we-are" style="background-image: url('/img/paper-bg.jpg')">
+<section class="section-we-are" id="section-we-are" style="background-image: url('img/paper-bg.jpg')">
    <div class="row">
       <div class="col-lg-8 col-md-10 col-xs-12">
          <h1>We're collecting stories and banding together</h1>

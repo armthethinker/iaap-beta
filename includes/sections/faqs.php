@@ -1,4 +1,4 @@
-<section class="section-faqs" id="section-faqs" style="background-image: url('/img/pattern2-fade.png')">
+<section class="section-faqs" id="section-faqs" style="background-image: url('img/pattern2-fade.png')">
    <div class="section-overlay">
       <div class="row">
          <div class="col-xs-12">

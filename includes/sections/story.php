@@ -1,4 +1,4 @@
-<section class="section-story" id="section-story" style="background-image: url('/img/pattern3.gif')">
+<section class="section-story" id="section-story" style="background-image: url('img/pattern3.gif')">
    <div class="row">
       <div class="col-xs-12">
          <button class="pull-right btn btn-default btn-collapse-section" data-toggle="collapse" data-target=".story">Show</button>

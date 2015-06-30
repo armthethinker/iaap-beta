@@ -35,12 +35,12 @@
                      <div class="row">
                         <div class="col-md-6">
                            <a href="#">
-                              <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-4.jpg')"></div>
+                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
                            </a>
                         </div>
                         <div class="col-md-6">
                            <a href="#">
-                              <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-11.jpg')"></div>
+                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
                            </a>
                         </div>
                      </div>
