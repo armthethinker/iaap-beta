@@ -4,7 +4,7 @@
          <div class="row">
             <div class="col-md-8">
                <h1>Take Action</h1>
-               <p class="lead">We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 15% of our profit goes into our <a data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+               <p class="lead">We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 15% of our profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
             </div>
          </div>
          <div class="row">

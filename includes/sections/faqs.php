@@ -24,7 +24,7 @@
                   <div class="col-md-6">
                      <div class="faq">
                       <h4>Where does my money go?</h4>
-                        <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 15% of that profit goes into our <a data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+                        <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 15% of that profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
                      </div>
                      <div class="faq">
                         <h4>Prototype Fund?</h4>
