@@ -139,48 +139,60 @@ module.exports = function(grunt) {
             tasks: ['md2html']
          }
       },
-      'sftp-deploy': {
-         deploy: {
+      'ftp-deploy': {
+         slim: {
             auth: {
-               host: '<%= pkg.url %>',
-               port: 22,
+               host: 'ftp.daseindesign.co',
+               port: 21,
                authKey: 'key1'
             },
-            src: '../ROOTFOLDER',
-            dest: '/SERVERLOCATION',
+            src: '../iaap-beta/',
+            dest: '/iamaprototype/beta',
             exclusions: [
-               'bower_components',
-               'node_modules',
-               '.DS_Store',
-               '.gitignore',
-               '.git',
                '.*',
-               'img',
+               'bower_components',
+               '*.less',
                'fonts',
+               'img',
+               'node_modules',
+               '*.json',
+               '*.md',
+               '**/.DS_Store',
+               '**/Thumbs.db',
             ],
-            progress: true
+            forceVerbose: true
+         },
+         fonts: {
+            auth: {
+               host: 'ftp.daseindesign.co',
+               port: 21,
+               authKey: 'key1'
+            },
+            src: '../iaap-beta/dist/fonts/',
+            dest: '/iamaprototype/beta/dist/fonts',
+            exclusions: [
+               '.*',
+               '*.json',
+               '*.md',
+               '**/.DS_Store',
+               '**/Thumbs.db',
+            ],
+            forceVerbose: true
          },
          img: {
             auth: {
-               host: '<%= pkg.url %>',
-               port: 22,
+               host: 'ftp.daseindesign.co',
+               port: 21,
                authKey: 'key1'
             },
-            src: '../ROOTFOLDER/img',
-            dest: '/SERVERLOCATION/img',
-            exclusions: ['.DS_Store'],
-            progress: true
-         },
-         js: {
-            auth: {
-               host: '<%= pkg.url %>',
-               port: 22,
-               authKey: 'key1'
-            },
-            src: '../ROOTFOLDER/dist/js',
-            dest: '/SERVERLOCATION/dist/js',
-            exclusions: ['.DS_Store'],
-            progress: true
+            src: '../iaap-beta/img',
+            dest: '/iamaprototype/beta/img',
+            exclusions: [
+               '.*',
+               '.DS_Store',
+               'Thumbs.db',
+            ],
+            forceVerbose: true
          }
       },
       autoprefixer: {
@@ -242,7 +254,7 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-concat');   
    grunt.loadNpmTasks('grunt-contrib-clean');    
    grunt.loadNpmTasks('grunt-contrib-copy');    
-   grunt.loadNpmTasks('grunt-sftp-deploy');
+   grunt.loadNpmTasks('grunt-ftp-deploy');
    grunt.loadNpmTasks('grunt-autoprefixer');
    grunt.loadNpmTasks('grunt-text-replace');
    grunt.loadNpmTasks('grunt-md2html');
@@ -260,7 +272,8 @@ module.exports = function(grunt) {
 
    // Production ready task runners
    grunt.registerTask('full', ['clean:dist', 'copy-stack', 'css', 'js', 'md2html']);
-   grunt.registerTask('deploy', ['sftp-deploy:deploy']);
-   grunt.registerTask('deployjs', ['sftp-deploy:js']);
+   grunt.registerTask('deploy', ['ftp-deploy:slim']);
+   grunt.registerTask('deployimg', ['ftp-deploy:img']);
+   //grunt.registerTask('deployjs', ['ftp-deploy:js']);
 
 };
