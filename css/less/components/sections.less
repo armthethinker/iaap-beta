@@ -146,4 +146,14 @@ section{
    background: @footer-bg;
    .text-white();
    min-height: initial; //override
+   .nav-footer{
+      text-align: center;
+   }
+   @media (min-width: @screen-sm-min) {
+      // Alight right for larger viewports
+      .nav-footer{
+         text-align: right;
+      }
+   }
+
 }
