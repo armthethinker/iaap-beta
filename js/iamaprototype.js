@@ -6,7 +6,6 @@ $(document).ready(function(){
    function navbarAffixLoc(){
       var $secHero = $('.section-hero > .section-overlay');
       var navbarAffixLoc = $secHero.height() - navbarheight*1.1;
-      console.log(navbarAffixLoc);
       return navbarAffixLoc;
    }
 
@@ -35,6 +34,20 @@ $(document).ready(function(){
    // Smooth scrolling
    smoothScroll.init({
       easing: 'easeInOutCubic'
+   });
+
+   // Expandable sections, btn text change
+   $('.story').on('hidden.bs.collapse', function(){
+      $('.js-collapse-btn-story').text('Show');
+   });
+   $('.story').on('shown.bs.collapse', function(){
+      $('.js-collapse-btn-story').text('Hide');
+   });
+   $('.faqs').on('hidden.bs.collapse', function(){
+      $('.js-collapse-btn-faqs').text('Show');
+   });
+   $('.faqs').on('shown.bs.collapse', function(){
+      $('.js-collapse-btn-faqs').text('Hide');
    });
 
    // Modal testing
