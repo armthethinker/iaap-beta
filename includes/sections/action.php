@@ -33,14 +33,24 @@
                      <button class="btn btn-default">Shop Things</button>
                      <hr>
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xs-3">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
                            </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xs-3">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
+                           </a>
+                        </div>
+                        <div class="col-xs-3">
+                           <a href="#">
+                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-34.jpg')"></div>
+                           </a>
+                        </div>
+                        <div class="col-xs-3">
+                           <a href="#">
+                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-18.jpg')"></div>
                            </a>
                         </div>
                      </div>
