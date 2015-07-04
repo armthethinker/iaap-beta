@@ -28,6 +28,26 @@ body > .container-fluid{
       // padding-right: @gutter;
    }
 }
+nav.navbar > .container-fluid{
+   > .row,
+   > .section-overlay > .row{
+      @media (min-width: @screen-sm-min) {
+         margin-left: @gutter;
+         margin-right: @gutter;
+      }
+   }
+}
+section{
+   > .row,
+   > .section-overlay > .row{
+      margin-left: 0; //override
+      margin-right: 0; //override
+      @media (min-width: @screen-sm-min) {
+         margin-left: @grid-gutter-width;
+         margin-right: @grid-gutter-width;
+      }
+   }
+}
 @media (max-width: @screen-xs-max) {
    //@font-size-reduction-xs: .7;
    @font-size-h1-xs:    .7*@font-size-h1;
