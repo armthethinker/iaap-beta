@@ -18,6 +18,14 @@ body > .container,
 body > .container-fluid{
    height: 100%;
 }
+.container-fluid{
+   padding-left: 0;
+   padding-right: 0;
+   @media (min-width: @screen-sm-min) {
+      // padding-left: @gutter;
+      // padding-right: @gutter;
+   }
+}
 h4,
 .h4,
 h5,

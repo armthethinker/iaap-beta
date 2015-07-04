@@ -8,12 +8,16 @@ section{
    // position: absolute;
    // min-height: 100%;
    // width: 100%;
-   margin-left: -@gutter;
-   margin-right: -@gutter;
+   // margin-left: -@gutter;
+   // margin-right: -@gutter;
    > .row,
    > .section-overlay > .row{
-      margin-left: @gutter; //override
-      margin-right: @gutter; //override
+      margin-left: 0; //override
+      margin-right: 0; //override
+      @media (min-width: @screen-sm-min) {
+         padding-left: @gutter;
+         padding-right: @gutter;
+      }
    }
 }
 .btn-collapse-section{
