@@ -146,13 +146,14 @@ section{
    background: @footer-bg;
    .text-white();
    min-height: initial; //override
-   .nav-footer{
-      text-align: center;
+   .nav-footer,
+   .nav-left{
+      text-align: right;
    }
-   @media (min-width: @screen-sm-min) {
-      // Alight right for larger viewports
-      .nav-footer{
-         text-align: right;
+   @media (max-width: @screen-xs-max) {
+      // Alight for xs viewports
+      .nav-left{
+         text-align: left;
       }
    }
 

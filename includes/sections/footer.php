@@ -15,9 +15,15 @@
       <div class="col-sm-4">
          <hr class="visible-xs">
          <div class="row nav-footer">
-            <div class="col-sm-12 col-xs-4"><a href="#">Store</a></div>
-            <div class="col-sm-12 col-xs-4"><a href="#">Press Kit</a></div>
-            <div class="col-sm-12 col-xs-4"><a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-medium"></i></a></div>
+            <div class="col-sm-12 col-xs-8 nav-left">
+               <div class="row">
+                  <div class="col-xs-12"><a href="#">Store</a></div>
+                  <div class="col-xs-12"><a href="#">Press Kit</a></div>
+               </div>
+            </div>
+            <div class="col-sm-12 col-xs-4 nav-right">
+               <a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-medium"></i></a>
+            </div>
          </div>
       </div>
    </div>
