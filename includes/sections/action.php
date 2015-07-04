@@ -8,7 +8,7 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6">
                <div class="media media-action">
                   <div class="media-left">
                      <div class="media-bullet">1</div>
@@ -18,11 +18,13 @@
                      <p>Tweet your proto-story in 145 characters + #IAmAPrototype.</p>
                      <button class="btn btn-default">Tweet Story</button>
                      <hr>
-                     <?php include('includes/components/twitter-embed.php') ?>
+                     <div class="hidden-xs">
+                        <?php include('includes/components/twitter-embed.php') ?>
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
                <div class="media media-action">
                   <div class="media-left">
                      <div class="media-bullet">2</div>
@@ -31,26 +33,16 @@
                      <h4>Buy A Thing</h4>
                      <p>Show your love, spread the word, and help fellow prototypes out.</p>
                      <button class="btn btn-default">Shop Things</button>
-                     <hr>
-                     <div class="row">
-                        <div class="col-xs-3">
+                     <hr class="hidden-xs">
+                     <div class="row hidden-xs">
+                        <div class="col-sm-6">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
                            </a>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-sm-6">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
-                           </a>
-                        </div>
-                        <div class="col-xs-3">
-                           <a href="#">
-                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-34.jpg')"></div>
-                           </a>
-                        </div>
-                        <div class="col-xs-3">
-                           <a href="#">
-                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-18.jpg')"></div>
                            </a>
                         </div>
                      </div>

@@ -6,7 +6,7 @@
             <h1>FAQs</h1>
             <div class="faqs collapse">
                <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                      <div class="faq">
                         <h4>What is a "prototype"?</h4>
                         <p>A prototype is an early version of a final product used to test the direction of a product. As good humans, we’re always prototypes, always testing our limits, always trying a new direction.</p>
@@ -21,7 +21,7 @@
                         <p>We love those too! We’re working on a Medium publication for just that. If you want to submit a story, or would like one of us to interview you and write your story, shoot us an <a href="#">email</a>.</p>
                      </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                      <div class="faq">
                       <h4>Where does my money go?</h4>
                         <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 15% of that profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>

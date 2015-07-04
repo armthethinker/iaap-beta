@@ -18,6 +18,83 @@ body > .container,
 body > .container-fluid{
    height: 100%;
 }
+
+// Responsive overrides
+.container-fluid{
+   padding-left: 0;
+   padding-right: 0;
+   @media (min-width: @screen-sm-min) {
+      // padding-left: @gutter;
+      // padding-right: @gutter;
+   }
+}
+nav.navbar > .container-fluid{
+   > .row,
+   > .section-overlay > .row{
+      @media (min-width: @screen-sm-min) {
+         margin-left: @gutter;
+         margin-right: @gutter;
+      }
+   }
+}
+section{
+   > .row,
+   > .section-overlay > .row{
+      margin-left: 0; //override
+      margin-right: 0; //override
+      @media (min-width: @screen-sm-min) {
+         margin-left: @grid-gutter-width;
+         margin-right: @grid-gutter-width;
+      }
+   }
+}
+@media (max-width: @screen-xs-max) {
+   //@font-size-reduction-xs: .7;
+   @font-size-h1-xs:    .7*@font-size-h1;
+   @font-size-h2-xs:    .7*@font-size-h2;
+   @font-size-h3-xs:    .7*@font-size-h3;
+   @font-size-h4-xs:    .9*@font-size-h4;
+   @font-size-h5-xs:       @font-size-h5;
+   @font-size-h6-xs:       @font-size-h6;
+   @font-size-base-xs:  .9*@font-size-base;
+
+   @font-size-badge-xs: .7*@font-size-base;
+
+   h1{
+      font-size: @font-size-h1-xs; 
+   }
+   h2{
+      font-size: @font-size-h2-xs; 
+   }
+   h3{
+      font-size: @font-size-h3-xs; 
+   }
+   h4{
+      font-size: @font-size-h4-xs; 
+   }
+   h5{
+      font-size: @font-size-h5-xs; 
+   }
+   h6{
+      font-size: @font-size-h6-xs; 
+   }
+   body{
+      font-size: @font-size-base-xs;
+   }
+
+   .badge{
+      font-size: @font-size-badge-xs;
+   }
+   .btn{
+      .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base-xs; @line-height-base; @btn-border-radius-base);
+   }
+   .form-control{
+      font-size: @font-size-base-xs;
+      height: @input-height-base - 3;
+   }
+}
+
+// Typeography
 h4,
 .h4,
 h5,
@@ -58,6 +135,8 @@ a{
       cursor: pointer;
    }
 }
+
+// Manifesto
 .manifesto-container{
    margin-top: 20px;
    margin-bottom: 20px;
@@ -67,6 +146,7 @@ a{
    box-shadow: 0 5px 5px fade(#000, 30%);
    h3{
       .text-center();
+      margin-top: 6px;
       .underline{
          height: 1px;
          background: @gray-light;
@@ -77,6 +157,8 @@ a{
       }
    }
 }
+
+// Dropdown in the nav
 .dropdown-menu{
    top: 111%;
    &:before {
@@ -132,7 +214,6 @@ a{
    background-color: fade(@brand-white, 50%);
    border-color: @brand-white;
 }
-
 .btn-navbar-menu{
    padding: 9px;
    .transition-ease();

@@ -5,16 +5,6 @@ section{
    position: relative;
    padding-top: 50px;
    padding-bottom: 50px;
-   // position: absolute;
-   // min-height: 100%;
-   // width: 100%;
-   margin-left: -@gutter;
-   margin-right: -@gutter;
-   > .row,
-   > .section-overlay > .row{
-      margin-left: @gutter; //override
-      margin-right: @gutter; //override
-   }
 }
 .btn-collapse-section{
    margin-top: 8px;
@@ -74,13 +64,16 @@ section{
       }
    }
    .hero-headers{
-      width: 100%;
-      left: 0;
-      right: 0;
+      width: 90%;
+      left: @gutter;
+      right: @gutter;
       bottom: -340px;
       position: absolute;
       @media (min-width: @screen-sm-min) {
          position: static;
+         left: 0;
+         right: 0;
+         width: 100%;
       }
    }
 }
@@ -113,7 +106,6 @@ section{
 .section-action{
    background: #EAEBF2;
    .img-cover();
-
 }
 .section-faqs{
    background: @brand-danger;
@@ -146,13 +138,14 @@ section{
    background: @footer-bg;
    .text-white();
    min-height: initial; //override
-   .nav-footer{
-      text-align: center;
+   .nav-footer,
+   .nav-left{
+      text-align: right;
    }
-   @media (min-width: @screen-sm-min) {
-      // Alight right for larger viewports
-      .nav-footer{
-         text-align: right;
+   @media (max-width: @screen-xs-max) {
+      // Alight for xs viewports
+      .nav-left{
+         text-align: left;
       }
    }
 
