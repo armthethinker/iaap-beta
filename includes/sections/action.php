@@ -8,7 +8,7 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6">
                <div class="media media-action">
                   <div class="media-left">
                      <div class="media-bullet">1</div>
@@ -24,7 +24,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
                <div class="media media-action">
                   <div class="media-left">
                      <div class="media-bullet">2</div>
@@ -35,12 +35,12 @@
                      <button class="btn btn-default">Shop Things</button>
                      <hr class="hidden-xs">
                      <div class="row hidden-xs">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-4.jpg')"></div>
                            </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <a href="#">
                               <div class="img-showcase" style="background-image: url('/img/photoshoots/IAAP-11.jpg')"></div>
                            </a>
