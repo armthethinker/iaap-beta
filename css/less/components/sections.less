@@ -142,6 +142,13 @@ section{
    .nav-left{
       text-align: right;
    }
+   a:hover,
+   a:focus{
+      color: fade(@brand-white, 80%);
+   }
+   a:active{
+      color: fade(@brand-white, 70%);
+   }
    @media (max-width: @screen-xs-max) {
       // Alight for xs viewports
       .nav-left{
