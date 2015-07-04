@@ -15,7 +15,12 @@
                </div>
             </div>
             <div class="col-sm-12 col-xs-4 nav-right">
-               <a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-medium"></i></a>
+               <ul class="list-inline">
+                  <li><a href="http://facebook.com/iamaprototype" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                  <li><a href="http://twitter.com/hiprototypes" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://instagram.com/iamaprototype" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="http://medium.com/i-am-a-prototype" target="_blank"><i class="fa fa-medium"></i></a></li>
+               </ul>
             </div>
          </div>
       </div>
