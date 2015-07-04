@@ -74,13 +74,16 @@ section{
       }
    }
    .hero-headers{
-      width: 100%;
-      left: 0;
-      right: 0;
+      width: 90%;
+      left: @gutter;
+      right: @gutter;
       bottom: -340px;
       position: absolute;
       @media (min-width: @screen-sm-min) {
          position: static;
+         left: 0;
+         right: 0;
+         width: 100%;
       }
    }
 }
