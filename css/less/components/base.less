@@ -26,6 +26,51 @@ body > .container-fluid{
       // padding-right: @gutter;
    }
 }
+@media (max-width: @screen-xs-max) {
+   //@font-size-reduction-xs: .7;
+   @font-size-h1-xs:    .7*@font-size-h1;
+   @font-size-h2-xs:    .7*@font-size-h2;
+   @font-size-h3-xs:    .7*@font-size-h3;
+   @font-size-h4-xs:    .9*@font-size-h4;
+   @font-size-h5-xs:       @font-size-h5;
+   @font-size-h6-xs:       @font-size-h6;
+   @font-size-base-xs:  .9*@font-size-base;
+
+   @font-size-badge-xs: .7*@font-size-base;
+
+   h1{
+      font-size: @font-size-h1-xs; 
+   }
+   h2{
+      font-size: @font-size-h2-xs; 
+   }
+   h3{
+      font-size: @font-size-h3-xs; 
+   }
+   h4{
+      font-size: @font-size-h4-xs; 
+   }
+   h5{
+      font-size: @font-size-h5-xs; 
+   }
+   h6{
+      font-size: @font-size-h6-xs; 
+   }
+   body{
+      font-size: @font-size-base-xs;
+   }
+
+   .badge{
+      font-size: @font-size-badge-xs;
+   }
+   .btn{
+      .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base-xs; @line-height-base; @btn-border-radius-base);
+   }
+   .form-control{
+      font-size: @font-size-base-xs;
+      height: @input-height-base - 3;
+   }
+}
 h4,
 .h4,
 h5,
