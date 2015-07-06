@@ -36,14 +36,10 @@
                      <hr class="hidden-xs">
                      <div class="row hidden-xs">
                         <div class="col-sm-6">
-                           <a href="#">
-                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
-                           </a>
+                           <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
                         </div>
                         <div class="col-sm-6">
-                           <a href="#">
-                              <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
-                           </a>
+                           <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
                         </div>
                      </div>
                   </div>
