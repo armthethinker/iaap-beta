@@ -4,7 +4,21 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>I Am A Prototype - Being Change</title>
+
+   <?php
+      $title = "I Am A PROTOTYPE - A Movement for Humans-In-Flux";
+      $description = "A movement meets storytelling meets meaningful products. We make stuff that helps humans-in-flux. Share your journeys and dreams with us. #iamaprototype";
+   ?>
+
+   <title><?= $title ?></title>
+
+   <!-- All that meta   -->
+   <meta name="description" content="<?= $description ?>" />
+   <meta property="og:title" content="<?= $title ?>" />
+   <meta property="og:url" content="http://iamaprototy.pe" />
+   <meta property="og:description" content="<?= $description ?>" />
+   <meta property="og:type" content="website" />
+   <meta property="og:image" content="http://iamaprototy.pe/img/icon-mountain.png" />
 
    <!-- Stylez -->
    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400|Montserrat' rel='stylesheet' type='text/css'>
