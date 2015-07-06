@@ -32,7 +32,7 @@
                   <div class="media-body">
                      <h4>Buy A Thing</h4>
                      <p>Show your love, spread the word, and help fellow prototypes out.</p>
-                     <button class="btn btn-default">Shop Things</button>
+                     <a class="btn btn-default" href="https://gumroad.com/iamaprototype" target="_blank">Shop Things</a>
                      <hr class="hidden-xs">
                      <div class="row hidden-xs">
                         <div class="col-sm-6">
