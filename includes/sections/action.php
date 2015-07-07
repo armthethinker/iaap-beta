@@ -15,8 +15,12 @@
                   </div>
                   <div class="media-body">
                      <h4>Tell Your Story</h4>
-                     <p>Tweet your proto-story in 145 characters + #IAmAPrototype.</p>
-                     <button class="btn btn-default">Tweet Story</button>
+                     <p>Tweet your proto-story in 125 characters + #iamaprototype.</p>
+                     <a href="https://twitter.com/intent/tweet?button_hashtag=iamaprototype"
+                        class="twitter-hashtag-button"
+                        data-size="large"
+                        data-related="HiPrototypes,armthethinker"
+                        data-dnt="true">Tweet Your Story</a>
                      <hr>
                      <div class="hidden-xs">
                         <?php include('includes/components/twitter-embed.php') ?>
