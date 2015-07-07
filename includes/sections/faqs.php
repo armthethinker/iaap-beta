@@ -8,12 +8,12 @@
                <div class="row">
                   <div class="col-sm-6">
                      <div class="faq">
-                        <h4>What is a "prototype"?</h4>
-                        <p>A prototype is an early version of a final product used to test the direction of a product. As good humans, we’re always prototypes, always testing our limits, always trying a new direction.</p>
+                        <h4>What is a "PROTOTYPE"?</h4>
+                        <p>A PROTOTYPE is an early version of a final product used to test the direction of a product. As good humans, we’re always PROTOTYPES, always testing our limits, always trying a new direction.</p>
                      </div>
                      <div class="faq">
                         <h4>What is your next direction?</h4>
-                        <p>We’re a prototype in every which way, including our company. We’ll always be testing new things. Right now, we’re focused on launching and connecting this community. Soon, we’ll show you a few things we have up our sleeves.</p>
+                        <p>We’re PROTOTYPES in every which way, including our company. We’ll always be testing new things. Right now, we’re focused on launching and connecting this community. Soon, we’ll show you a few things we have up our sleeves.</p>
                         <p>Have an idea? Shoot us an <a href="#">email</a>.</p>
                      </div>
                      <div class="faq">
@@ -24,7 +24,7 @@
                   <div class="col-sm-6">
                      <div class="faq">
                       <h4>Where does my money go?</h4>
-                        <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 10% of that profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+                        <p>Every purchase directly affects a fellow PROTOTYPE. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 10% of that profit goes into the <a href="#" data-toggle="modal" data-target="#m-prototype-fund">PROTOTYPE Fund</a>.</p>
                      </div>
                      <div class="faq">
                         <h4>Prototype Fund?</h4>

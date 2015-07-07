@@ -4,7 +4,7 @@
          <h1>Take Action</h1>
          <div class="row">
             <div class="col-md-8 col-sm-10">
-               <p class="lead">We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 10% of our profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+               <p class="lead">We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 10% of our profit goes into the <a href="#" data-toggle="modal" data-target="#m-prototype-fund">PROTOTYPE Fund</a>.</p>
             </div>
             <div class="col-md-4 col-sm-2">
                <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-27.jpg')"></div>
@@ -34,7 +34,7 @@
                   </div>
                   <div class="media-body">
                      <h4>Buy A Thing</h4>
-                     <p>Show your love, spread the word, and help fellow prototypes out.</p>
+                     <p>Show your love, spread the word, and help fellow PROTOTYPES out.</p>
                      <a class="btn btn-default" href="https://gumroad.com/iamaprototype" target="_blank">Shop Things</a>
                   </div>
                </div>
