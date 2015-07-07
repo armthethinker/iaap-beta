@@ -8,7 +8,8 @@
    <?php
       $title = "I Am A PROTOTYPE - A Movement for Humans-In-Flux";
       $description = "A movement meets storytelling meets meaningful products. We make stuff that helps humans-in-flux. Share your journeys and dreams with us. #iamaprototype";
-      $imgURL = "http://iamaprototy.pe/img/icon-mountain.png";
+      //$imgURL = "http://iamaprototy.pe/img/icon-mountain.png";
+      $imgURL = "http://iamaprototy.pe/beta/img/photoshoots/IAAP-17.jpg";
    ?>
 
    <title><?= $title ?></title>
