@@ -1,10 +1,13 @@
 <section class="section-action" id="section-action">
    <div class="row">
       <div class="col-xs-12">
+         <h1>Take Action</h1>
          <div class="row">
-            <div class="col-md-8">
-               <h1>Take Action</h1>
+            <div class="col-md-8 col-sm-10">
                <p class="lead">We can help bring people together in two ways. Sharing stories helps people realize they are not alone. Purchasing some swag shows others this movement, helps us keep the lights on, and 10% of our profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+            </div>
+            <div class="col-md-4 col-sm-2">
+               <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-27.jpg')"></div>
             </div>
          </div>
          <div class="row">
@@ -21,10 +24,6 @@
                         data-size="large"
                         data-related="HiPrototypes,armthethinker"
                         data-dnt="true">Tweet Your Story</a>
-                     <hr>
-                     <div class="hidden-xs">
-                        <?php include('includes/components/twitter-embed.php') ?>
-                     </div>
                   </div>
                </div>
             </div>
@@ -37,15 +36,6 @@
                      <h4>Buy A Thing</h4>
                      <p>Show your love, spread the word, and help fellow prototypes out.</p>
                      <a class="btn btn-default" href="https://gumroad.com/iamaprototype" target="_blank">Shop Things</a>
-                     <hr class="hidden-xs">
-                     <div class="row hidden-xs">
-                        <div class="col-sm-6">
-                           <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-4.jpg')"></div>
-                        </div>
-                        <div class="col-sm-6">
-                           <div class="img-showcase" style="background-image: url('img/photoshoots/IAAP-11.jpg')"></div>
-                        </div>
-                     </div>
                   </div>
                </div>
             </div>
