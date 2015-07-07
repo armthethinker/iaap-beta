@@ -5,7 +5,8 @@
             <div class="hero-headers">
                <h2>Be a</h2>
                <h1>PROTOTYPE.</h1>
-               <h3>Being Change</h3>
+               <!-- <h3>A movement for humans-in-flux</h3> -->
+               <h3>Join the Movement</h3>
             </div>
          </div>
       </div>
