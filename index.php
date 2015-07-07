@@ -3,7 +3,7 @@
 include('includes/prepage.php');
 
 include('includes/sections/hero.php');
-include('includes/sections/photo1.php');
+//include('includes/sections/photo1.php');
 include('includes/sections/manifesto.php');
 include('includes/sections/action.php');
 include('includes/sections/photo2.php');
