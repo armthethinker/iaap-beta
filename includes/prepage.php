@@ -8,6 +8,7 @@
    <?php
       $title = "I Am A PROTOTYPE - A Movement for Humans-In-Flux";
       $description = "A movement meets storytelling meets meaningful products. We make stuff that helps humans-in-flux. Share your journeys and dreams with us. #iamaprototype";
+      $imgURL = "http://iamaprototy.pe/img/icon-mountain.png";
    ?>
 
    <title><?= $title ?></title>
@@ -19,7 +20,7 @@
    <meta property="og:url" content="http://iamaprototy.pe" />
    <meta property="og:description" content="<?= $description ?>" />
    <meta property="og:type" content="website" />
-   <meta property="og:image" content="http://iamaprototy.pe/img/icon-mountain.png" />
+   <meta property="og:image" content="<?= $imgURL ?>" />
    <!-- Twitter -->
 
    <!-- Stylez -->
