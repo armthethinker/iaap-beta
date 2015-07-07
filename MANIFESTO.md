@@ -18,7 +18,7 @@ the artists.
   
 We take our lives into our own hands when we can.  
 We drift when we can’t.  
-We’ll build ourselves, tear ourselves down, and do it again.  
+We’ll build ourselves, break ourselves, and do it again.  
   
 We’re not afraid of learning through failure,  
 but we are a little afraid of being hurt.  
@@ -54,4 +54,4 @@ We look into the abyss,
 shout our name,  
 and say:  
   
-I am a prototype.  
+I am a PROTOTYPE.  
