@@ -32,6 +32,7 @@ module.exports = function(grunt) {
                   'bower_components/smooth-scroll/dist/js/smooth-scroll.min.js',
                   //'bower_components/icheck/icheck.min.js',
                   'bower_components/FitText.js/jquery.fittext.js',
+                  'js/twitter.js',
                   'js/<%= pkg.gname %>.js'],
             dest: 'dist/js/<%= pkg.gname %>.js'
          }
