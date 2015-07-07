@@ -14,11 +14,13 @@
 
    <!-- All that meta   -->
    <meta name="description" content="<?= $description ?>" />
+   <!-- Facebook / Open Graph-->
    <meta property="og:title" content="<?= $title ?>" />
    <meta property="og:url" content="http://iamaprototy.pe" />
    <meta property="og:description" content="<?= $description ?>" />
    <meta property="og:type" content="website" />
    <meta property="og:image" content="http://iamaprototy.pe/img/icon-mountain.png" />
+   <!-- Twitter -->
 
    <!-- Stylez -->
    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400|Montserrat' rel='stylesheet' type='text/css'>
