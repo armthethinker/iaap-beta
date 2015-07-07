@@ -24,11 +24,11 @@
                   <div class="col-sm-6">
                      <div class="faq">
                       <h4>Where does my money go?</h4>
-                        <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 15% of that profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
+                        <p>Every purchase directly affects a fellow prototype. A good chunk of your purchase goes towards printing and shipping your item. The profit is split between the founders and 10% of that profit goes into our <a href="#" data-toggle="modal" data-target="#m-prototype-fund">Prototype Fund</a>.</p>
                      </div>
                      <div class="faq">
                         <h4>Prototype Fund?</h4>
-                        <p>When we started this, we knew that we wanted to give back. Each of us have struggled to fund our ideas, or even just to keep the lights on. That’s why 15% of each purchase is put into a revolving fund. In disbursments of $1,000, we’ll give prototypes funding and a bit of mentorship. Applications will open once we’ve built up enough of a fund.</p>
+                        <p>When we started this, we knew that we wanted to give back. Each of us have struggled to fund our ideas, or even just to keep the lights on. That’s why 10% of each purchase is put into a revolving fund. In disbursments of $1,000, we’ll give prototypes funding and a bit of mentorship. Applications will open once we’ve built up enough of a fund.</p>
                      </div>
                      <div class="faq">
                         <h4>I got charged multiple times for shipping.</h4>
